@@ -32,7 +32,7 @@ use Scalar::Util qw(openhandle);
 BEGIN
 {
     use File::Basename qw(dirname);
-    use lib dirname( __FILE__ ) . '/../../../';
+    use lib dirname( __FILE__ ) . '/../lib';
 }
 
 BEGIN { use_ok('MIME::Base64::ChunkedEncoder'); }

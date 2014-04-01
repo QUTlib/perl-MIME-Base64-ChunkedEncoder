@@ -1,0 +1,10 @@
+language: perl
+
+perl:
+  - "5.8"
+  - "5.14"
+
+notifications:
+  recipients:
+    - libsys@qut.edu.au
+
